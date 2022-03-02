@@ -14,7 +14,7 @@ public class Week2_ex1 {
         int sum = 0;
         for (int i = 0; fibonacci(i) < n; i++) {
             sum += fibonacci(i);
-            System.out.println(sum);
         }
+        System.out.println(sum);
     }
 }
