@@ -12,18 +12,6 @@ import java.util.Scanner;
 
 public class Bai1 {
     public static ArrayList<Integer> readFile() throws FileNotFoundException {
-        // BufferedReader abc = new BufferedReader(new FileReader("./Bai1/dayso.txt"));
-        // List<String> lines = new ArrayList<String>();
-
-        // String line;
-        // while((line = abc.readLine()) != null) {
-        // lines.add(line);
-        // }
-        // abc.close();
-
-        // String[] data = lines.toArray(new String[]{});
-        // System.out.println(data[0]);
-        // return data;
         File txt = new File("./dayso.txt");
         Scanner scan = new Scanner(txt);
         ArrayList<Integer> data = new ArrayList<Integer>();
